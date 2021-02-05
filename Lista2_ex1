@@ -1,0 +1,26 @@
+package Desenvolvimento;
+
+import java.util.Scanner;
+
+public class Lista2_ex1 {
+
+	public static void main(String[] args) {
+		int x;
+		Scanner ler = new Scanner(System.in);
+		
+		System.out.println("Digite um numero inteiro qualquer: ");
+		x = ler.nextInt();
+		
+		if (x > 0) {
+			System.out.println("Número digitado é positivo.");
+		} 
+		else if(x < 0) {
+			System.out.println("Número digitado é negativo.");
+		}
+		else {
+			System.out.println("Numero é zero.");
+		}
+		
+		ler.close();
+	}
+}
